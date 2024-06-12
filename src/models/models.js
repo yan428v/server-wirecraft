@@ -16,6 +16,7 @@ const Products = sequelize.define("product", {
     // Возможно просто есть в наличии или нет.
     category: { type: DataTypes.STRING, allowNull: true },// Серёжки, скульптуры, механизмы, хз чё ещё.
 
+//
 })
 
 const Users = sequelize.define("user", {
